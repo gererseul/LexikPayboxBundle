@@ -7,7 +7,7 @@ use Lexik\Bundle\PayboxBundle\Event\PayboxResponseEvent;
 use Lexik\Bundle\PayboxBundle\Paybox\AbstractRequest;
 use Lexik\Bundle\PayboxBundle\Transport\TransportInterface;
 use Psr\Log\LoggerInterface;
-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 /**
  * Class Request
