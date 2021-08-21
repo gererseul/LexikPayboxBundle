@@ -6,7 +6,7 @@ use Lexik\Bundle\PayboxBundle\Event\PayboxEvents;
 use Lexik\Bundle\PayboxBundle\Event\PayboxResponseEvent;
 use Lexik\Bundle\PayboxBundle\Paybox\System\Tools;
 use Psr\Log\LoggerInterface;
-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 use Symfony\Component\HttpFoundation\RequestStack;
