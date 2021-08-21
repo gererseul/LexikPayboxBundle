@@ -71,7 +71,7 @@ class RequestTest extends \PHPUnit_Framework_TestCase
             ;
         }
 
-        $dispatcher = $this->getMock('Symfony\Component\EventDispatcher\EventDispatcher');
+        $dispatcher = $this->getMock('Symfony\Contracts\EventDispatcher\EventDispatcher');
         if (true === $dispatch) {
             $dispatcher
                 ->expects($this->once())
